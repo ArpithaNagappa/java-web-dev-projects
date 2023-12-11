@@ -1,4 +1,4 @@
-package org.launchcode;
+package main.java.org.launchcodePart2;
 
 public class Teacher {
     private String firstName;
