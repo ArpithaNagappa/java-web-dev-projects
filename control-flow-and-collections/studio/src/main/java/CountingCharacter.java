@@ -14,7 +14,7 @@ public class CountingCharacter {
         for(char theCharacter : charactersInString){
            // System.out.println(theCharacter);
 
-            if(myCharCount.containsKey(theCharacter) == false){
+            if(!myCharCount.containsKey(theCharacter)){
                 myCharCount.put(theCharacter ,1);
             }
             else{

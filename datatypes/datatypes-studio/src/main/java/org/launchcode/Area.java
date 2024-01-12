@@ -10,7 +10,7 @@ public class Area {
         if (input.hasNextDouble()) {
             double radius = input.nextDouble();
 
-            if (radius > 0) {
+            if (radius >= 0) {
                 double area = Circle.getArea(radius);
                 System.out.println("Area of circle is: " + area);
 

@@ -10,8 +10,6 @@ public class PracticeArraylist {
 
         ArrayPractice arrayPractice = new ArrayPractice();
         String[] returnedWords = arrayPractice.spiltGivenString();
-
-
         ArrayList<String> wordsToSearch = new ArrayList<>(Arrays.asList(returnedWords));
         System.out.println("What word length are you looking for? " );
         Integer searchLength = PracticeArraylist.getUserInput();

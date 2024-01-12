@@ -7,7 +7,7 @@ public class AliceAdventure {
         Scanner input = new Scanner(System.in);
         System.out.println("enter the text to be search");
         String text = input.nextLine();
-        String input1 = text.toLowerCase();
+       String input1 = text.toLowerCase();
         String str1 = str.toLowerCase();
         if(str1.contains(input1) ) {
                 System.out.println("text found");

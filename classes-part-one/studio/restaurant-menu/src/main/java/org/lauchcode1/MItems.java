@@ -53,4 +53,5 @@ public class MItems {
     public void setItNew(boolean itNew) {
         isItNew = itNew;
     }
+
 }

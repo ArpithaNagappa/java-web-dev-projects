@@ -6,5 +6,6 @@ public class Course {
         private String topic;
         private String instructorName;
         private ArrayList<Student> enrolledStudents;
+
     }
 

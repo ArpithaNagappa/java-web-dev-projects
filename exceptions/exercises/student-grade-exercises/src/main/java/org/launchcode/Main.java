@@ -56,7 +56,7 @@ public class Main {
 
                 if (fileName.contains(".java")) {
                     numberOfPointRecieved = 1;
-                } else if (fileName.contains(".java")) {
+                } else if (fileName != ".java") {
                     numberOfPointRecieved = 0;
                 } else if (fileName.contains("")) {
                     numberOfPointRecieved = -1;

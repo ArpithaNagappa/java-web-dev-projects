@@ -10,7 +10,14 @@ public class Main {
         MItems mCourse = new MItems("Biryani", 10.99 ,"mainCourse", true);
         MItems starter = new MItems("PepperChicken", 9.99 , "appetizer", true);
 
+        dessert.toString();
+
         dessert.setDescription("Made out of apples");
+        starter.setDescription("Made out of chicken");
+        mCourse.setDescription("Made out of chicken and rice");
+
+        System.out.println(dessert);
+
 
 
     }
