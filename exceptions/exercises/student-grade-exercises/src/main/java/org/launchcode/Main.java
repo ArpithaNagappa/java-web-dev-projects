@@ -24,7 +24,7 @@ public class Main {
 
         // Test out your CheckFileExtension() function!
 
-        System.out.println(CheckFileExtension(""));
+        System.out.println(CheckFileExtension(""));//
     }
 
     public static void Divide(int x, int y)
